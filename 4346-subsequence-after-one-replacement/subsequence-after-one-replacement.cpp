@@ -51,7 +51,7 @@ public:
 
         for(int i=1;i<n-1;i++){
             if((prefix[i-1]+1)<(suffix[i+1]) && prefix[i-1]!=1e9 && suffix[i+1] != 1e9){
-                cout<<i<<endl;
+                //cout<<i<<endl;
                 return true;
             }
         }
