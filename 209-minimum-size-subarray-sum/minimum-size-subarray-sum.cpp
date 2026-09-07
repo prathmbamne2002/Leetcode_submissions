@@ -22,7 +22,7 @@ public:
             }
 
             if(r+1<n && currsum+nums[r+1]>=target){
-                ans = min(ans,r-l+1);
+                ans = min(ans,r-l+2);
             }
             
 
@@ -37,6 +37,6 @@ public:
         }
 
 
-        return ans+1;
+        return ans;
     }
 };
